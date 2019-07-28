@@ -1,0 +1,31 @@
+{
+    "name": "whiteboard-challenges",
+    "version": "1.0.0",
+    "description": "Whiteboard Challenges",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stefanolepera/whiteboard-challenges.git"
+    },
+    "author": "Stefano Le Pera",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stefanolepera/whiteboard-challenges/issues"
+    },
+    "homepage": "https://github.com/stefanolepera/whiteboard-challenges#readme",
+    "dependencies": {
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+    },
+    "devDependencies": {
+        "jest": "^24.8.0"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "src/**/*.{js,jsx}"
+        ]
+    }
+}
